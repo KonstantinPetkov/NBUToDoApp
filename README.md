@@ -7,8 +7,10 @@ It will be extended to show **Polyglot Persistence** too
 
 Used technologies:
 
-ASP.Net Core 2.0
-Entity Framework 2.0
-MS SQL Server
-PostgreSQL
-MongoDB
+* ASP.Net Core 2.0
+* Entity Framework 2.0
+* MS SQL Server
+* PostgreSQL
+* MongoDB
+
+This example is part of **Information System Design with .Net** NBU course
