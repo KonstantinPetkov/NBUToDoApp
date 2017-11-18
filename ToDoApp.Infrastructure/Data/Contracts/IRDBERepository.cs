@@ -7,7 +7,7 @@ namespace ToDoApp.Infrastructure.Data.Contracts
     /// Relational Database Engine
     /// </summary>
     /// <typeparam name="T">Type of the data table to which 
-    /// current deposity is attached</typeparam>
+    /// current reposity is attached</typeparam>
     public interface IRDBERepository<T> : IRepository<T> where T : class
     {
         /// <summary>
@@ -19,13 +19,13 @@ namespace ToDoApp.Infrastructure.Data.Contracts
         /// <summary>
         /// Detaches given entity from the context
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">Entity to be detached</param>
         void Detach(T entity);
 
         /// <summary>
         /// Saves all made changes in trasaction
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Error code</returns>
         int SaveChanges();
     }
 }
